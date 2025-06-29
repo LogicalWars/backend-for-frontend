@@ -1,2 +1,6 @@
 server:
   port: 8080
+
+service:
+  user-service: "http://localhost:8082/api/users/"
+  order-service: "http://localhost:8081/api/orders/by-user/"
